@@ -1,0 +1,49 @@
+input{
+    border-radius: 6px;
+}
+body{
+    background-color: beige;
+}
+
+#titulo{
+   text-align: center;
+   font-weight: bold;
+   font-size: 100px;
+}
+
+label{
+    text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+h5{
+    
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#ipbin{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gatito{
+    position: relative;
+    top: 380px;
+    right: 500px;
+    width: 30rem;
+    bottom: 100px;
+    display: block;
+}
+
+#textg{
+    position: relative;
+    top: 200px;
+    right: 150px;
+}
+
+#tabl{
+    position: relative;
+    top: 200px;
+}

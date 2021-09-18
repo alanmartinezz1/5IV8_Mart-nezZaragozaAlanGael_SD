@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subneteo</title>
+    <script src="JS/logica.js" ></script>
+    <script src="JS/llenartablas.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div>
+        <div class="col-md-6 col-md-offset-3">
+            <h1 align="center" id="titulo">Subneteo</h1>
+            
+                <br>
+                <br>
+                <br>
+                <br>
+                <label id="ipp">Ingresa la ip: </label>
+                    
+                <input class="text-muted" id="ip" name="ip" >
+                <br>
+                <br>
+                <label id="subred">Número de subredes: </label>
+                    
+                <input type="input_text" id="subred">
+                   
+                <input type="button" class="bg-success" value="Calcular" onclick="XDE()" >
+            
+                <br>
+                <br>
+                <br>
+                <br>
+                
+           
+            <h5>IP en binario:</h5>
+                   
+            <input type="text" class="boxi" id="ipbin" readonly>
+               
+            <h5>Tipo de clase:</h5>  
+                    
+            <input type="text" class="boxi" id="clase" readonly>
+                    
+            <h5>Máscara de subred adaptada:</h5>
+                    
+            <input type="text" class="boxi" id="maskadap" readonly>
+                   
+            <h5>Máscara de subred en binario:</h5>
+                    
+            <input type="text" class="boxi" id="maskbin" readonly>
+            
+            
+
+        </div>
+        <br>
+        <div>
+            <img src="CSS/gatito.jpg" alt="ungatowo" id="gatito">
+            <p id="textg">un gatito para alegrar su día uwu</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        
+    </div>  
+    <br>
+    <br>
+    <br>
+    <div id="tabl">
+        <br>
+        <br>
+        <br>
+        <table id="tabla1" class="table">           
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
