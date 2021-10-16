@@ -1,0 +1,21 @@
+{
+  "name": "3_comunicar_clientes",
+  "version": "1.0.0",
+  "description": "Tarea de Carapia osiosi",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^1.7.2",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Carapia",
+  "license": "ISC"
+}
